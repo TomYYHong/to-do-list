@@ -1,4 +1,4 @@
-import React, { FC, ChangeEvent, useState } from "react";
+import { FC } from "react";
 import "./App.css";
 import { TodoWrapper } from "./components/TodoWrapper";
 
