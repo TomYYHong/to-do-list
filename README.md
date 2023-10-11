@@ -1,27 +1,31 @@
-# React + TypeScript + Vite
+### The to do list build with React and typescript
+![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/ce5fa56b-3b07-4252-9bf9-b115585d66c6)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Function:  
+Add todo task   
+![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/e255ad3e-c464-42a3-a79a-8fe0c2a28fee)
 
-Currently, two official plugins are available:
+Edit todo task  
+![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/933e2dce-0588-460f-ac88-52db4b08f6c7)
+![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/e7741f2d-d8b9-4687-aee5-815ddc1efbf0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Delete todo task  
+![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/1b9e7562-d3e7-44ca-95ce-0e6f76ae0e84)
+![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/157220b6-f6aa-4560-a0bf-3ad4a27dca06)
 
-## Expanding the ESLint configuration
+To complete a todo task  
+![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/3576594e-671a-4b49-8d66-b1a02ba286de)
+![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/4d5968df-60a3-4f38-9c7f-a20f24570ccf)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Setup
+To run this web site, please install below package  
+https://www.npmjs.com/package/uuid  
+```
+npm install uuid
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+https://www.npmjs.com/package/@fortawesome/react-fontawesome  
+```
+npm i @fortawesome/react-fontawesome
+npm i @fortawesome/free-solid-svg-icons
+```
