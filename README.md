@@ -1,6 +1,6 @@
 ### The to do list build with React and typescript  
 
-### <a href="https://main--todo-list-typescript-react-tomhong.netlify.app" > Live Demo</a>
+### <a href="https://main--todo-list-typescript-react-tomhong.netlify.app" target="_blank" > Live Demo</a>
 
 
 ![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/ce5fa56b-3b07-4252-9bf9-b115585d66c6)
