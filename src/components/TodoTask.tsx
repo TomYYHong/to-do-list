@@ -3,18 +3,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaintBrush, faEraser } from "@fortawesome/free-solid-svg-icons";
 
 interface TodoProps {
-  task: {
+  todo: {
     id: string;
     task: string;
     completed: boolean;
   };
   deleteTodo: (id: string) => void;
-  editTodo: (id: string) => void;
+  editTodo: (task: string, id: string) => void;
   toggleComplete: (id: string) => void;
 }
 
 export const Todo: React.FC<TodoProps> = ({
-  task,
+  todo,
   deleteTodo,
   editTodo,
   toggleComplete,
@@ -22,21 +22,21 @@ export const Todo: React.FC<TodoProps> = ({
   return (
     <div className="Todo">
       <p
-        className={`${task.completed ? "completed" : "incompleted"}`}
-        onClick={() => toggleComplete(task.id)}
+        className={`${todo.completed ? "completed" : "incompleted"}`}
+        onClick={() => toggleComplete(todo.id)}
       >
-        {task.task}
+        {todo.task}
       </p>
       <div>
         <FontAwesomeIcon
           className="edit-icon"
           icon={faPaintBrush}
-          onClick={() => editTodo(task.id)}
+          onClick={() => editTodo(todo.task, todo.id)}
         />
         <FontAwesomeIcon
           className="delete-icon"
           icon={faEraser}
-          onClick={() => deleteTodo(task.id)}
+          onClick={() => deleteTodo(todo.id)}
         />
       </div>
     </div>

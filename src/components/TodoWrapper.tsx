@@ -36,15 +36,15 @@ export const TodoWrapper: React.FC = () => {
     );
   };
 
-  const editTodo = (id: string) => {
-    setTodos(
-      todos.map((todo) =>
-        todo.id === id ? { ...todo, isEditing: !todo.isEditing } : todo
-      )
-    );
-  };
+  // const editTodo = (id: string) => {
+  //   setTodos(
+  //     todos.map((todo) =>
+  //       todo.id === id ? { ...todo, isEditing: !todo.isEditing } : todo
+  //     )
+  //   );
+  // };
 
-  const editTask = (task: string, id: string) => {
+  const editTodo = (task: string, id: string) => {
     setTodos(
       todos.map((todo) =>
         todo.id === id ? { ...todo, task, isEditing: !todo.isEditing } : todo
@@ -59,11 +59,11 @@ export const TodoWrapper: React.FC = () => {
       {/* display todos */}
       {todos.map((todo) =>
         todo.isEditing ? (
-          <EditTodoForm editTodo={editTask} task={todo} key={todo.id} />
+          <EditTodoForm editTodo={editTodo} task={todo} key={todo.id} />
         ) : (
           <Todo
             // key={todo.id}
-            task={todo}
+            todo={todo}
             deleteTodo={deleteTodo}
             editTodo={editTodo}
             toggleComplete={toggleComplete}
