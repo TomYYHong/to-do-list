@@ -2,7 +2,7 @@
 ![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/ce5fa56b-3b07-4252-9bf9-b115585d66c6)
 
 Function:
-Add todo task
+Add todo task <br/ >
 ![image](https://github.com/TomYYHong/to-do-list-typescit-react/assets/56811243/e255ad3e-c464-42a3-a79a-8fe0c2a28fee)
 
 Edit todo task
