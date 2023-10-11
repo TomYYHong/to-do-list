@@ -19,10 +19,6 @@ To complete a todo task
 
 ### Setup
 To run this web site, please install below package  
-https://www.npmjs.com/package/uuid  
-```
-npm install uuid
-```
 
 https://www.npmjs.com/package/@fortawesome/react-fontawesome  
 ```
