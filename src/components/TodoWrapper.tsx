@@ -58,7 +58,7 @@ export const TodoWrapper: React.FC = () => {
           <EditTodoForm editTodo={editTask} task={todo} key={todo.id} />
         ) : (
           <Todo
-            key={todo.id}
+            // key={todo.id}
             task={todo}
             deleteTodo={deleteTodo}
             editTodo={editTodo}
